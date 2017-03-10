@@ -1,0 +1,122 @@
+*{transition: all .1s ease-in;}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #3a99ca;
+    font-family:  “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+    color: white;
+    border: 20px solid #3081aa;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 30px auto;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.cities li {
+    display: inline-block;
+    font-size: 24px;
+    box-sizing: border-box;
+    border-left: 5px solid white;
+    border-top: 5px solid white;
+    text-align: center;
+    padding: 40px 10px;
+}
+
+.cities {
+    font-size: 0;
+    background-color: white;
+}
+
+.cities li p {
+    opacity: 0.5;
+    padding: 10px;
+}
+
+.cities li:nth-child(1) {
+    background-color: #3a99ca;
+    height: 150px;
+    width: 33.3333%;
+}
+
+.cities li:nth-child(2) {
+    background-color: #3ecccb;
+    height: 150px;
+    width: 33.3333%;
+}
+
+.cities li:nth-child(3) {
+    background-color: #986698;
+    height: 150px;
+    width: 33.3333%;
+    border-right: 5px solid white;
+}
+
+.cities li:nth-child(4) {
+    background-color: #c0464a;
+    height: 150px;
+    width: 25%;
+}
+
+.cities li:nth-child(5) {
+    background-color: #e0654f;
+    height: 150px;
+    width: 25%;
+}
+
+.cities li:nth-child(6) {
+    background-color: #fecb6e;
+    height: 150px;
+    width: 25%;
+}
+
+.cities li:nth-child(7) {
+    background-color: #9acc9b;
+    height: 150px;
+    width: 25%;
+    border-right: 5px solid white;
+}
+
+.cities li:nth-child(8) {
+    background-color: #689998;
+    height: 150px;
+    width: 33.3333%;
+}
+
+.cities li:nth-child(9) {
+    background-color: #ca6598;
+    height: 150px;
+    width: 33.3333%;
+}
+
+.cities li:nth-child(10) {
+    background-color: #399968;
+    height: 150px;
+    width: 33.3333%;
+    border-right: 5px solid white;
+}
+
+.cities li:nth-child(11) {
+    background-color: #666697;
+    height: 150px;
+    width: 100%;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+}
+
+h3 {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+ul:hover > li { opacity: 0.6;}  /*подглядел*/
+.cities li:hover { opacity: 1;}
+.cities li:active { background: white;}
